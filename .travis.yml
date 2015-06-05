@@ -1,0 +1,7 @@
+langugage: node_js
+node_js:
+- '0.12'
+install:
+- sudo pip install awsebcli
+after_success:
+- eb deploy

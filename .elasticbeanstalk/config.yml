@@ -1,0 +1,10 @@
+branch-defaults:
+  master:
+    environment: null
+global:
+  application_name: pubot
+  default_ec2_keyname: aws-eb
+  default_platform: Docker 1.6.0
+  default_region: us-west-2
+  profile: eb-cli
+  sc: git
