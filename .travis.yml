@@ -4,4 +4,5 @@ node_js:
 install:
 - sudo pip install awsebcli
 after_success:
+- eb init -I SECURE_KEY -S SECURE_SECRET
 - eb deploy
