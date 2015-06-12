@@ -1,7 +1,9 @@
 FROM node:0.12
 
-RUN npm install
+COPY . /src
+
+RUN cd /src; npm install
 
 EXPOSE  8080
 
-CMD ["pubot/bin/hubot", "--adapter", "slack"]
+CMD ["/src/node_modules/.bin/hubot", "--adapter", "slack"]
