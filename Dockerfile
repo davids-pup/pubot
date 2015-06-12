@@ -2,7 +2,7 @@ FROM node:0.12
 
 COPY . /src
 
-RUN cd /src; npm install
+RUN cd /src; npm install -g coffee-script; npm install
 
 EXPOSE  8080
 
