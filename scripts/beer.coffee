@@ -1,3 +1,8 @@
+# Description:
+#   beer effect on hubot.
+#
+# Commands:
+#   any chat containing the word beer - will trigger response from hubot.
 beerReplies = ["heck man!! you just reminded me to booze", "hey hey hey, do you want me to work or not?", "you drunkards!!", "you humans, thinking about getting drunk all the time"]
 
 module.exports = (robot) ->
