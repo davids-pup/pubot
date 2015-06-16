@@ -1,6 +1,6 @@
 branch-defaults:
   master:
-    environment: pubot-dev
+    environment: pubot-live
 global:
   application_name: pubot
   default_ec2_keyname: aws-eb
