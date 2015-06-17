@@ -26,5 +26,8 @@ EXPOSE  8080
 # 6. set env variables 
 ENV HUBOT_SLACK_TOKEN xoxb-5106340078-dssVq80GOJ6kJ4BTGHcjHMFs
 
+# permission to execute anything in the src folder
+RUN chmod +x -R /src
+
 # 7. Command to run
 CMD ["/src/bin/hubot", "--adapter", "slack"]
