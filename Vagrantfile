@@ -5,7 +5,7 @@ Vagrant.configure(2) do |config|
 
   config.vm.provision "docker" do |d|
     d.build_image "/vagrant", args: "-t pageup/bot"
-    d.run "pageup/bot"
+    d.run "pageup/bot", args: "-e HUBOT_SLACK_TOKEN={{put-your-token-here}}"
   end
 
 end
