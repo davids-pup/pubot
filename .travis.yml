@@ -3,7 +3,9 @@ node_js:
 - '0.12'
 install:
 - sudo pip install awsebcli
+branches:
+  only:
+    - master
 after_success:
 - eb init
-- eb setenv HUBOT_SLACK_TOKEN=$HUBOT_SLACK_TOKEN
 - eb deploy pubot-live
