@@ -21,7 +21,7 @@ There are two things here,
 
 1. Running locally to test your scripts
 
-    ``bin/hubot --adapter shell``
+    ``"bin/hubot" --adapter shell``
 
     you may not need the quotations in a linux terminal.
 
