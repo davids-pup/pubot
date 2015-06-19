@@ -8,4 +8,4 @@ os = require 'os'
 
 module.exports = (robot) ->
   robot.respond /(where are you|where do you come) from/i, (msg) ->
-  	msg.send 'my hostname - ' + os.hostname()
+  	msg.send 'my hostname - ' + os.hostname() + '. you probably wont understand as it is a docker container.'
