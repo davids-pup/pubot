@@ -15,7 +15,17 @@ Although pubot has some fun interactions it can also be used for useful tasks su
 
 We use travis ci which will deploy any commits on master to production - for instant gratification.
 
-### Running pubot Locally
+### Set up
+
+    git clone https://github.com/PageUpPeopleOrg/pubot.git .
+    npm install -g coffee-script
+    npm install
+
+Just that simple, if node or npm is not available follow, [this blog][treehouse-blog] might be of help.
+
+[treehouse-blog]: http://blog.teamtreehouse.com/install-node-js-npm-windows
+
+### Running locally
 
 There are two things here,
 

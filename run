@@ -1,0 +1,3 @@
+#!/bin/sh
+echo "--> $ADAPTER"
+exec /src/bin/hubot --adapter $ADAPTER
