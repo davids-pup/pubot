@@ -31,9 +31,13 @@ There are two things here,
 
 1. Running locally to test your scripts
 
-    ``"bin/hubot" --adapter shell``
+* Windows
 
-    you may not need the quotations in a linux terminal.
+    `"bin/hubot" --adapter shell`
+
+* Mac/Linux
+
+    `./bin/hubot --adapter shell`
 
 2. Running locally to verify the deployment (docker changes)
 
